@@ -97,14 +97,13 @@ a:hover{
 
 
 	text-align: center;
-	width: 70%;
-	overflow-wrap: all;
+	width: 85%;
 	padding: 15px 25px 15px;	
 	color: #D62153;	
 
 }
    #description{
-   	margin-left: 150px;
+   	margin: 10px 30px 10px 30px;
    }
 
    #hea span{
