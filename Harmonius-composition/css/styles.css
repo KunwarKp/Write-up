@@ -1,0 +1,123 @@
+body{
+	background-color: #A397E8;
+}
+
+#hea{
+	background: url("../images/bokehbg.jpg"); 
+	background-position: center;
+	box-shadow: 10px 10px 10px #3F4C4C;
+	border-radius: 10px;
+	border: 2px solid ;
+	margin: 30px;
+	height: 200px;
+	position: relative;
+}
+
+#img{
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#hea span{
+	
+	margin-top: 30px;
+    margin-bottom: 0;
+	font-family: 'Lobster', cursive;
+	color: #1AC8DD;
+	font-size: 3vw;
+}
+
+#main-content{
+	margin: 50px;
+}
+
+div > p{
+	text-align: center;
+	font-weight: bold;
+	box-shadow: 10px 10px 10px #3F4C4C;
+	background: url("../images/starbg.jpg");
+	border-radius: 20px;
+	border: 2px solid #033823;
+}
+
+
+p > span{
+	font-weight: bolder;
+	text-align: center;
+}
+
+a{
+	color: red;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+@media (min-width:1200px){
+
+	div > p{
+	
+	margin: 50px 450px;
+	padding: 15px 25px 15px;	
+	color: #D62153;
+
+}
+
+} 
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+	div > p{
+	
+	margin: 50px 350px;
+	padding: 15px 25px 15px;	
+	color: #D62153;	
+
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	div > p{
+	
+	margin: 40px 250px;
+	padding: 15px 25px 15px;	
+	color: #D62153;	
+
+}
+}
+
+@media (max-width: 767px){
+
+	div > p{
+
+
+	text-align: center;
+	width: 70%;
+	overflow-wrap: all;
+	padding: 15px 25px 15px;	
+	color: #D62153;	
+
+}
+   #description{
+   	margin-left: 150px;
+   }
+
+   #hea span{
+   	font-size: 1.5em
+
+   }
+
+   #hea{
+   	height: 150px;
+   }
+
+   #img{
+   	width: 150px;
+   	height: 150px;
+   }
+}
